@@ -5,7 +5,7 @@ extern LRESULT ImGui_ImplWin32_WndProcHandler(HWND hWnd, UINT msg, WPARAM wParam
 namespace Renderer
 {
     static bool m_bDrawMenu = false;
-    static std::vector<int> menu_keys{ VK_INSERT, VK_DELETE, VK_RCONTROL, VK_F1 };
+    static std::vector<int> menu_keys{ VK_INSERT, VK_DELETE, VK_RCONTROL, VK_F1, VK_RSHIFT };
 
     static ID3D11Device*            g_pDevice = nullptr;
     static ID3D11DeviceContext*     g_pContext = nullptr;
